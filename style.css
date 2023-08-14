@@ -140,7 +140,20 @@ button-header:active {
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-.beneficios-img{
+.beneficios-img1{
   width: 70%;
   margin-right: 6%;
+}
+
+.beneficios-img2{
+  width: 75%;
+}
+
+.beneficios-img3{
+  width: 90%;
+}
+
+.beneficios-img4{
+  width: 80%;
+  margin-left: 6%;
 }
