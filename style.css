@@ -6,11 +6,11 @@
   list-style-type: none;
 }
 
-/* body {
-  width: 100%;
+body {
+  width: 100vw;
   height: 100vh;
   font-family: Arial, Helvetica, sans-serif;
-} */
+}
 
 .header {
   background-color: rgb(252, 243, 252);
@@ -20,7 +20,7 @@
   padding: 0px 3%;
   height: 12%;
   width: 100%;
-  box-shadow: 0px 0px 18px -3px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 3px 34px 0px #f4f3f4,0px 0px 15px -3px rgba(0,0,0,0.5),0px 10px 15px -3px rgba(0,0,0,0.1);
   position: fixed;
   z-index: 100;
 }
@@ -97,14 +97,14 @@ button-header:active {
 .portada {
   position: relative;
   width: 100%;
-  height: 100vh; /* Tamaño de la portada, puede ajustarse según tus necesidades */
+  height: 100vh;
   overflow: hidden;
 }
 
 .portada img {
   width: 100%;
   height: 100%;
-  object-fit: cover; /* Ajustar la imagen para cubrir todo el contenedor */
+  object-fit: cover; 
   margin-top: 5%;
 }
 
@@ -164,6 +164,7 @@ button-header:active {
   align-content: center;
   gap: 40px;
   font-family: sans-serif;
+  height: 100%;
   /* background-color: red; */
 }
 
@@ -174,16 +175,17 @@ button-header:active {
   align-items: center;
   padding: 20px;
   border-radius: 15px;
-  background-color:  rgba(135, 121, 171, 0.938);
+  background-color: rgb(252, 243, 252);
+  text-align: center;
+  box-shadow: 0px 3px 34px 0px #f4f3f4,0px 0px 15px -3px rgba(0,0,0,0.5),0px 10px 15px -3px rgba(0,0,0,0.5);
+  font-size: 1rem;
+  height: 440px;
+  margin: 40px 0px;
   -webkit-border-radius: 15px;
   -moz-border-radius: 15px;
   -ms-border-radius: 15px;
   -o-border-radius: 15px;
-  text-align: center;
-  box-shadow: 0px 3px 34px 0px #f4f3f4,0px 0px 15px -3px rgba(0,0,0,0.1),0px 10px 15px -3px rgba(0,0,0,0.1);
-  font-size: 1rem;
-  height: 440px;
-  margin: 40px 0px;
+  color: #b26bb5;
 }
 
 .container-card h3 {
@@ -203,11 +205,11 @@ button-header:active {
 
 .button {
   padding: 10px 15px;
-  border-radius: 10px;
-  -webkit-border-radius: 10px;
-  -moz-border-radius: 10px;
-  -ms-border-radius: 10px;
-  -o-border-radius: 10px;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
   outline: none;
   background:  rgb(199, 114, 199);
   color: rgb(255, 255, 255);
@@ -229,4 +231,75 @@ button-header:active {
   color: black;
   transform: scale(1.5);
   font-weight:100;
+}
+
+
+ul {
+  position: relative;
+  display: flex;
+}
+ul li {
+  position: relative;
+  list-style: none;
+  margin: 0 20px;
+  cursor: pointer;
+}
+ul li a {
+  text-decoration: none;
+}
+ul li a .fa-brands {
+  font-size: 6em;
+  color: #222;
+}
+ul li a::before {
+  font-family: "FontAwesome";
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: 6em;
+  height: 0;
+  overflow: hidden;
+  transition: 0.5s ease-in-out;
+}
+
+
+.contacto-about {
+  width: 100%;
+  height: 50%;
+  background-color: rgb(252, 243, 252);
+  display: flex;
+  justify-content:space-around;
+  align-items:center;
+  gap: 40px;
+  box-shadow: 0px 3px 34px 0px #f4f3f4,0px 0px 15px -3px rgba(0,0,0,0.5),0px 10px 15px -3px rgba(0,0,0,0.1);
+}
+
+.contacto-icono {
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+}
+
+.contacto.icono i {
+  font-size: 200px;
+}
+
+.footer {
+  background-color: rgb(252, 243, 252);
+  width: 100%;
+  height: 40px;
+  bottom: 0;
+  top: 400px;
+}
+
+.footerDiv {
+  width: 100%;
+  height: 40px;
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  font-size: small;  
+
 }
