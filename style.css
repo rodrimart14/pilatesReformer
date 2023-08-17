@@ -4,11 +4,13 @@
   box-sizing: border-box;
   text-decoration: none;
   list-style-type: none;
+  border: 1px solid red;
 }
 
 body {
-  width: 100vw;
+  width: 100%;
   height: 100vh;
+  margin: 0;
   font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -20,14 +22,12 @@ body {
   padding: 0px 3%;
   height: 12%;
   width: 100%;
+  top: 0;
   box-shadow: 0px 3px 34px 0px #f4f3f4,0px 0px 15px -3px rgba(0,0,0,0.5),0px 10px 15px -3px rgba(0,0,0,0.1);
   position: fixed;
   z-index: 100;
 }
 
-/* .img-nav {
-  width: 60%;
-} */
 .link-img {
   width: 55%;
 }
@@ -128,21 +128,29 @@ button-header:active {
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
+.conten-beneficios {
+  display: flex;
+}
+
 .beneficios-div{
   padding: 5%;
   display: flex;
+  justify-content: space-around;
   width: 100%;
-  height: 40%;
+  height: 30%;
 }
 
 .beneficios-div p {
   font-size: 1.6rem;
   font-family: Georgia, 'Times New Roman', Times, serif;
+  text-align: left;
+  max-width: 50%;
+  font-size: 20px;
 }
 
 .beneficios-img1{
   width: 70%;
-  margin-right: 6%;
+  /* margin-right: 6%; */
 }
 
 .beneficios-img2{
@@ -154,8 +162,7 @@ button-header:active {
 }
 
 .beneficios-img4{
-  width: 80%;
-  margin-left: 6%;
+  width: 90%;
 }
 
 .section-card{
@@ -165,6 +172,7 @@ button-header:active {
   gap: 40px;
   font-family: sans-serif;
   height: 100%;
+  padding: 20px;
   /* background-color: red; */
 }
 
@@ -269,19 +277,33 @@ ul li a::before {
   background-color: rgb(252, 243, 252);
   display: flex;
   justify-content:space-around;
-  align-items:center;
+  align-items: center;
+  padding: 20px;
   gap: 40px;
   box-shadow: 0px 3px 34px 0px #f4f3f4,0px 0px 15px -3px rgba(0,0,0,0.5),0px 10px 15px -3px rgba(0,0,0,0.1);
+}
+
+.profes-contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* align-items: center; */
+  gap: 20px;
 }
 
 .contacto-icono {
   display: flex;
   flex-direction: column;
   margin: 20px;
+  background-color: red;
 }
 
-.contacto.icono i {
-  font-size: 200px;
+.fa-brands {
+  font-size: 30px;
+}
+
+.fa-solid {
+  font-size: 30px;
 }
 
 .footer {
