@@ -46,5 +46,15 @@
 
 }
 
+.portada {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.tittle-portada {
+    margin-top: 20px;
+  }
+
 }
 
