@@ -35,17 +35,17 @@
     gap: 10px;
   }
   
-  .imagen-login {
+  .imagen-registro {
     position: relative;
     width: 65%;
-    height: 100vh; /* Tamaño de la portada, puede ajustarse según tus necesidades */
+    height: 100vh;
     overflow: hidden;
   }
   
-  .imagen-login img {
+  .imagen-registro img {
     width: 100%;
     height: 100%;
-    object-fit: cover; /* Ajustar la imagen para cubrir todo el contenedor */
+    object-fit: cover; 
   }
   
   .btn-registro-div {
