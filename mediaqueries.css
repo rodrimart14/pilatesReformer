@@ -123,12 +123,12 @@ button-header {
 
 .tittle-portada {
     margin-top: 20px;
-  }
+}
 
 }
 
 
-@media (max-width 576px){
+@media (max-width: 576px){
 
 .link-img {
     width: 30px;
