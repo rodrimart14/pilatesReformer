@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  /* border: 1px solid red; */
 }
 
 .login-style {
@@ -38,14 +39,14 @@
 .imagen-login {
   position: relative;
   width: 65%;
-  height: 100vh; /* Tamaño de la portada, puede ajustarse según tus necesidades */
+  height: 100vh;
   overflow: hidden;
 }
 
 .imagen-login img {
   width: 100%;
   height: 100%;
-  object-fit: cover; /* Ajustar la imagen para cubrir todo el contenedor */
+  object-fit: cover;
 }
 
 .btn-ingresar-div {

@@ -1,0 +1,29 @@
+@media (max-width: 900px) {
+
+.login-style {
+    flex-direction: column;
+    align-items: center;
+}
+    
+.form-style {
+    width: 80%;
+}
+    
+.imagen-login {
+    display: none; /* Oculta la imagen en pantallas menores a 900px */
+}
+}
+    
+    /* Estilos para dispositivos con ancho máximo de 576px */
+@media (max-width: 576px) {
+    .inputs {
+    width: 100%; /* Asegura que los inputs ocupen el ancho completo */
+}
+    
+.form-style {
+    width: 90%;
+    margin-top: 20px;
+}
+
+
+}
