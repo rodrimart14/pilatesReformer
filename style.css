@@ -321,7 +321,7 @@ ul li a::before {
   flex-direction: column;
   justify-content: center;
   /* align-items: center; */
-  gap: 20px;
+  gap: 70px;
 }
 
 .contacto-icono {
