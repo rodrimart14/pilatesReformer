@@ -7,7 +7,8 @@
   /* border: 1px solid red; */
 }
 
-body, html {
+body,
+html {
   font-family: Arial, Helvetica, sans-serif;
   scroll-behavior: smooth;
   scroll-padding-top: 65px;
@@ -22,7 +23,8 @@ body, html {
   height: 70px;
   width: 100%;
   top: 0;
-  box-shadow: 0px 3px 34px 0px #f4f3f4,0px 0px 15px -3px rgba(0,0,0,0.5),0px 10px 15px -3px rgba(0,0,0,0.1);
+  box-shadow: 0px 3px 34px 0px #f4f3f4, 0px 0px 15px -3px rgba(0, 0, 0, 0.5),
+    0px 10px 15px -3px rgba(0, 0, 0, 0.1);
   position: fixed;
   z-index: 100;
 }
@@ -52,7 +54,7 @@ body, html {
 }
 
 .ul-navbar li a::after {
-  content: '';
+  content: "";
   position: absolute;
   width: 100%;
   height: 2px;
@@ -80,7 +82,6 @@ body, html {
     "Lucida Sans", Arial, sans-serif;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
-
 
 button-header {
   --border: 5px;
@@ -127,6 +128,8 @@ button-header:active {
   transition: none;
 }
 
+
+
 .portada {
   position: relative;
   width: 100%;
@@ -137,7 +140,7 @@ button-header:active {
 .portada img {
   width: 100%;
   height: 100%;
-  object-fit: cover; 
+  object-fit: cover;
   margin-top: 5%;
 }
 
@@ -151,9 +154,9 @@ button-header:active {
   font-family: sans-serif;
 }
 
-.h2-beneficios{
+.h2-beneficios {
   font-size: 40px;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: Georgia, "Times New Roman", Times, serif;
   color: #ab8cac;
   text-align: center;
   justify-items: center;
@@ -165,7 +168,7 @@ button-header:active {
   display: flex;
 }
 
-.beneficios-div{
+.beneficios-div {
   padding: 5%;
   display: flex;
   justify-content: space-around;
@@ -175,30 +178,30 @@ button-header:active {
 
 .beneficios-div p {
   font-size: 1.6rem;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: Georgia, "Times New Roman", Times, serif;
   text-align: left;
   max-width: 50%;
   font-size: 20px;
 }
 
-.beneficios-img1{
+.beneficios-img1 {
   width: 70%;
   /* margin-right: 6%; */
 }
 
-.beneficios-img2{
+.beneficios-img2 {
   width: 75%;
 }
 
-.beneficios-img3{
+.beneficios-img3 {
   width: 90%;
 }
 
-.beneficios-img4{
+.beneficios-img4 {
   width: 90%;
 }
 
-.section-card{
+.section-card {
   display: flex;
   justify-content: center;
   align-content: center;
@@ -218,7 +221,8 @@ button-header:active {
   border-radius: 15px;
   background-color: rgb(252, 243, 252);
   text-align: center;
-  box-shadow: 0px 3px 34px 0px #f4f3f4,0px 0px 15px -3px rgba(0,0,0,0.5),0px 10px 15px -3px rgba(0,0,0,0.5);
+  box-shadow: 0px 3px 34px 0px #f4f3f4, 0px 0px 15px -3px rgba(0, 0, 0, 0.5),
+    0px 10px 15px -3px rgba(0, 0, 0, 0.5);
   font-size: 1rem;
   height: 400px;
   margin: 40px 0px;
@@ -242,7 +246,6 @@ button-header:active {
   -ms-border-radius: 10px;
   -o-border-radius: 10px;
   margin-top: 10px;
-
 }
 
 .button {
@@ -253,28 +256,26 @@ button-header:active {
   -ms-border-radius: 20px;
   -o-border-radius: 20px;
   outline: none;
-  background:  rgb(199, 114, 199);
+  background: rgb(199, 114, 199);
   color: rgb(255, 255, 255);
   font-size: 20px;
   cursor: pointer;
   z-index: 2;
   border: none;
   text-transform: uppercase;
-  transition: .7s ease all;
-  -webkit-transition: .7s ease all;
-  -moz-transition: .7s ease all;
-  -ms-transition: .7s ease all;
-  -o-transition: .7s ease all;
+  transition: 0.7s ease all;
+  -webkit-transition: 0.7s ease all;
+  -moz-transition: 0.7s ease all;
+  -ms-transition: 0.7s ease all;
+  -o-transition: 0.7s ease all;
 }
-
 
 .button:hover {
   background: #fcb9ff;
   color: black;
   transform: scale(1.5);
-  font-weight:100;
+  font-weight: 100;
 }
-
 
 ul {
   position: relative;
@@ -304,17 +305,17 @@ ul li a::before {
   transition: 0.5s ease-in-out;
 }
 
-
 .contacto-about {
   width: 100%;
   height: 300px;
   background-color: rgb(252, 243, 252);
   display: flex;
-  justify-content:space-around;
+  justify-content: space-around;
   align-items: center;
   padding: 10px;
   gap: 40px;
-  box-shadow: 0px 3px 34px 0px #f4f3f4,0px 0px 15px -3px rgba(0,0,0,0.5),0px 10px 15px -3px rgba(0,0,0,0.1);
+  box-shadow: 0px 3px 34px 0px #f4f3f4, 0px 0px 15px -3px rgba(0, 0, 0, 0.5),
+    0px 10px 15px -3px rgba(0, 0, 0, 0.1);
 }
 
 .profes-contact {
@@ -356,6 +357,5 @@ ul li a::before {
   justify-content: center;
   align-items: center;
   gap: 20px;
-  font-size: small;  
-
+  font-size: small;
 }
