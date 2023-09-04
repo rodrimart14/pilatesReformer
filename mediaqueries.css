@@ -3,15 +3,17 @@
     display: flex;
     position: absolute;
     /*bottom: -550px;
-    */top: 70px;
+    */
+    top: 70px;
     z-index: 10;
     justify-content: center;
     align-items: center;
     height: 250px;
     width: 100vw;
-    background-color: rgba(252, 243, 252, 0.60);
+    background-color: rgba(252, 243, 252, 0.6);
     /*background-color: rgb(252, 243, 252);
-    */transform: translateX(200%);
+    */
+    transform: translateX(200%);
     transition: all 0.4s ease;
     -webkit-transition: all 0.4s ease;
     -moz-transition: all 0.4s ease;
@@ -21,7 +23,7 @@
     -moz-transform: translateX(200%);
     -ms-transform: translateX(200%);
     -o-transform: translateX(200%);
-}
+  }
 
   .overlay {
     position: absolute;
@@ -35,7 +37,7 @@
     display: none;
   }
 
-  #toggle-menu:checked ~ .overlay{
+  #toggle-menu:checked ~ .overlay {
     display: block;
   }
 
@@ -60,12 +62,13 @@
 
   #toggle-menu:checked + .navar {
     /*display: flex;
-    */transform: translateX(0);
+    */
+    transform: translateX(0);
     -webkit-transform: translateX(0);
     -moz-transform: translateX(0);
     -ms-transform: translateX(0);
     -o-transform: translateX(0);
-}
+  }
 
   .link-img {
     width: 50px;
@@ -144,6 +147,33 @@
 
   .tittle-portada {
     margin-top: 20px;
+  }
+
+  .profes-contact {
+    width: 90%;
+    height: 70%;
+  }
+
+  .link-footer {
+    width: 100%;
+    font-size: 20px;
+    padding-top: 25px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .redes-footer {
+    padding-top: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+  .fa-brands {
+    font-size: 35px;
+  }
+
+  .fa-solid {
+    font-size: 35px;
   }
 }
 
@@ -227,5 +257,23 @@
 
   .footerDiv {
     font-size: 8px;
+  }
+
+  .profes-contact {
+    width: 90%;
+    height: 70%;
+  }
+
+  .link-footer {
+    width: 100%;
+    font-size: 12px;
+    padding-top: 20px;
+  }
+
+  .redes-footer {
+    padding-top: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
   }
 }
