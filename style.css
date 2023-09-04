@@ -393,7 +393,7 @@ ul li a::before {
     -moz-transform: translateX(0);
     -ms-transform: translateX(0);
     -o-transform: translateX(0);
-}
+  }
 }
 
 .portada h1 {
@@ -404,4 +404,50 @@ ul li a::before {
 .header {
   animation: fade 1s ease-in;
   -webkit-animation: fade 1s ease-in;
+}
+
+@keyframes blink {
+  to {
+    background: transparent;
+    opacity: 0;
+  }
+}
+
+@keyframes typewriter {
+  to {
+    left: 100%;
+  }
+}
+
+.h2-beneficios {
+  position: relative;
+  background: #ab8cac;
+  background-clip: text;
+  color: transparent;
+  -webkit-background-clip: text;
+}
+
+.h2-beneficios::before,
+.h2-beneficios:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.h2-beneficios::before {
+  background-color: white;
+  animation: typewriter 2s 1.4s steps(38) forwards;
+  -webkit-animation: typewriter 2s 1.4s steps(38) forwards;
+}
+
+.h2-beneficios::after {
+  width: 0rem;
+  background: #ab8cac;
+  animation: typewriter 2s 1.4s steps(38) forwards,
+    blink 0.8s steps(38) infinite;
+  -webkit-animation: typewriter 2s 1.4s steps(38) forwards,
+    blink 0.8s steps(38) infinite;
 }
